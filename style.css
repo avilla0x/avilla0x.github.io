@@ -40,3 +40,11 @@
         break-inside: avoid;
     }
 }
+
+/* Imagen de perfil siempre cuadrada y recortada */
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
